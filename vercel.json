@@ -5,10 +5,11 @@
       "src": "capitalnest/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "capitalnest/dist"
+        "distDir": "dist"
       }
     }
   ],
+  "outputDirectory": "capitalnest/dist",
   "routes": [
     {
       "src": "/(.*)",
